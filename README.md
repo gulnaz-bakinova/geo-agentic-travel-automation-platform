@@ -21,7 +21,6 @@ Built around a direct-booking model for certified mountain expeditions, trekking
 | :--- | :--- | :--- |
 | • Full `llms.txt` & `llms-full`<br>• Schema.org Graph Engine<br>• Sub-second AI Ingestion | • `data-agent-*` attributes<br>• Structured Action Schema<br>• DOM state-machine feedback | • Row-Level Security (RLS)<br>• Strict zero-drift audits<br>• Multi-Agent CI/CD Guard |
 
-
 ---
 
 ## High-Level System Architecture
@@ -73,6 +72,8 @@ flowchart TB
     NOTIF_ENGINE --> TELEGRAM
     NOTIF_ENGINE --> PARTNERS
     SPA --> KASPI
+
+```
 
 ## Core Engineering Pillars
 
