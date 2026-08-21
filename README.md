@@ -1,6 +1,8 @@
 # GEO-Agentic Travel Automation Platform
 ### Next-Gen AI-Native Architecture: Generative Engine Optimization (GEO), Autonomous Agent Protocols, and Event-Driven Cloud Pipelines
 
+*🇷🇺 [Русская версия](README.ru.md)*
+
 [![Architecture: Event-Driven](https://img.shields.io/badge/Architecture-Event--Driven-0052CC?style=for-the-badge&logo=diagramsdotnet)](./ARCHITECTURE.md)
 [![Protocol: llms.txt](https://img.shields.io/badge/Protocol-llms.txt%20%2F%20Schema.org-34A853?style=for-the-badge&logo=google)](./GEO_SPECIFICATION.md)
 [![Backend: Supabase](https://img.shields.io/badge/Backend-Supabase%20%2F%20PostgreSQL-3ECF8E?style=for-the-badge&logo=supabase)](./SQL_EXAMPLES.md)
