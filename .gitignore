@@ -1,0 +1,27 @@
+# ==============================================================================
+# .gitignore — MORN Travel Platform
+# ==============================================================================
+
+# Environment secrets (NEVER commit real .env)
+.env
+.env.local
+.env.production
+
+# Dependencies
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Build artifacts
+dist/
+build/
