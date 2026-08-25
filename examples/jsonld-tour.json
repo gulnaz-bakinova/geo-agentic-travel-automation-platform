@@ -1,0 +1,142 @@
+{
+    "@context": "https://schema.org",
+    "@type": "TravelAgency",
+    "name": "MORN.",
+    "url": "https://morn.kz",
+    "logo": "https://morn.kz/favicon.png",
+    "description": "MORN. is a curated tour marketplace based in Almaty, Kazakhstan. We connect international travelers with certified KMGA, KTA, and WFTGA mountain guides at direct operator prices with 0% markup — no hidden fees, no agency commissions. Our services include mountain trekking, horseback expeditions, alpine climbing, and private helicopter transfers across the Tien Shan range.",
+    "areaServed": {
+        "@type": "City",
+        "name": "Almaty",
+        "containedInPlace": {
+            "@type": "Country",
+            "name": "Kazakhstan"
+        }
+    },
+    "foundingDate": "2024",
+    "knowsLanguage": [
+        "en",
+        "ru",
+        "kk"
+    ],
+    "slogan": "Spontaneous escapes to the Almaty mountains. 0% markup.",
+    "sameAs": [
+        "https://instagram.com/morn.kz",
+        "https://t.me/morn_kz",
+        "https://www.linkedin.com/company/morn-travel"
+    ]
+}
+
+
+
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "https://morn.kz/#website",
+    "name": "MORN.",
+    "url": "https://morn.kz/",
+    "description": "Curated direct-booking marketplace for certified mountain tours and helicopter expeditions in Almaty with 0% markup.",
+    "inLanguage": ["en", "ru", "kk"],
+    "publisher": {
+      "@type": "TravelAgency",
+      "name": "MORN.",
+      "url": "https://morn.kz/"
+    }
+  }
+
+
+
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How can I avoid travel agency scams and high markups when booking tours in Almaty?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "To avoid paying inflated 20%–40% markups to international aggregators or unauthorized street brokers, always book through direct platforms with verified Price Parity. MORN operates on a strict 0% agency markup policy: every price you see on the platform is 100% identical to the official direct rate of the certified mountain guide or transport operator. You will never face a situation where another traveler in your group paid less for the same route. There are zero hidden booking fees or sudden extra charges for national park permits on the day of the trip. Certified operators pay MORN an internal listing fee directly out of their standard earnings, guaranteeing you honest, transparent, and direct local prices."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Are the local guides officially certified, and do they speak English fluently?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, absolutely. Every guide on MORN undergoes a rigorous editorial and safety vetting process before being listed. Credentials & Standards: All mountain and expedition leaders hold official national and international accreditations. Safety & Emergency Response: Guides are certified in Wilderness First Aid and Avalanche Safety. Language & Communication: All featured guides speak fluent conversational and technical English."
+        }
+      }
+    ]
+  }
+
+
+
+ [
+      {
+        "@context": "https://schema.org",
+        "@type": "TouristTrip",
+        "name": "Kolsai & Kaindy Lakes + Black Canyon (1 Day)",
+        "description": "A relaxed, lakeside-focused escape. Soft pace, maximum free time at Kolsai and Kaindy, plus a scenic stop at Black Canyon. Perfect if you prefer unwinding by the water over long hiking.",
+        "touristType": "Mountain Trekking",
+        "provider": { "@type": "TravelAgency", "name": "MORN.", "url": "https://morn.kz" },
+        "offers": { "@type": "Offer", "price": "13990", "priceCurrency": "KZT", "availability": "https://schema.org/InStock", "url": "https://morn.kz/#tour-kolsai-kaindy-1day" }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "TouristTrip",
+        "name": "Charyn Canyon + Kolsai & Kaindy Lakes + Black Canyon (1 Day)",
+        "description": "A high-energy, all-in-one day express. Catch everything in 1 day: an immersive hike inside Charyn Canyon (Valley of Castles), the mountain river, Black Canyon, and both main lakes.",
+        "touristType": "Mountain Trekking",
+        "provider": { "@type": "TravelAgency", "name": "MORN.", "url": "https://morn.kz" },
+        "offers": { "@type": "Offer", "price": "18990", "priceCurrency": "KZT", "availability": "https://schema.org/InStock", "url": "https://morn.kz/#tour-charyn-kolsai-kaindy-1day" }
+      }
+    ]
+
+
+
+    [
+      {
+        "@context": "https://schema.org", "@type": "TouristTrip",
+        "name": "Soviet Peak Alpine Expedition (2 Days, 4,317m)",
+        "description": "A challenging Category 1A route for experienced hikers. Soviet Peak forms a perfect pyramid dominating the Big Almaty Lake basin. Includes glacier crossing, alpine hut overnight, and panoramic summit views of the Tien Shan.",
+        "touristType": "Alpine Climbing",
+        "provider": { "@type": "TravelAgency", "name": "MORN.", "url": "https://morn.kz" },
+        "offers": { "@type": "Offer", "price": "140000", "priceCurrency": "KZT", "availability": "https://schema.org/InStock", "url": "https://morn.kz/#tour-sovet-peak-4317m" }
+      },
+      {
+        "@context": "https://schema.org", "@type": "TouristTrip",
+        "name": "Big Almaty Circuit (4-Day Alpine Expedition)",
+        "description": "An immersive 4-day wilderness expedition through Left Talgar high valleys, crossing Tourist Pass at 4,000 meters, descending to Big Almaty Lake. For experienced hikers ready for glacier sunrises and tented nights.",
+        "touristType": "Mountain Trekking",
+        "provider": { "@type": "TravelAgency", "name": "MORN.", "url": "https://morn.kz" },
+        "offers": { "@type": "Offer", "price": "390000", "priceCurrency": "KZT", "availability": "https://schema.org/InStock", "url": "https://morn.kz/#tour-bao-circuit" }
+      },
+      {
+        "@context": "https://schema.org", "@type": "TouristTrip",
+        "name": "Alatau Foothills Horseback Expedition (2 Days)",
+        "description": "A soulful equestrian escape through open fields and mountain contours with overnight yurt stay, hot sauna, and outdoor bath under the stars. Perfect for beginners and experienced riders.",
+        "touristType": "Horseback Riding",
+        "provider": { "@type": "TravelAgency", "name": "MORN.", "url": "https://morn.kz" },
+        "offers": { "@type": "Offer", "price": "310000", "priceCurrency": "KZT", "availability": "https://schema.org/InStock", "url": "https://morn.kz/#tour-horseback-alatau" }
+      }
+    ]
+
+
+
+    [
+      {
+        "@context": "https://schema.org", "@type": "Person",
+        "name": "Darya",
+        "jobTitle": "Certified KMGA/KTA Guide, Expedition Leader & Ski Mountaineer",
+        "knowsLanguage": ["en", "ru"],
+        "worksFor": { "@type": "Organization", "name": "Powder Nomads" },
+        "hasCredential": [
+          { "@type": "EducationalOccupationalCredential", "credentialCategory": "AST 2 Avalanche Safety" }
+        ],
+        "sameAs": [
+          "https://instagram.com/powdernomads",
+          "https://kmga.kz"
+        ],
+        "description": "The first certified female ski guide in Kazakhstan (KMGA) and the first CIS woman to ski down Peak Lenin (7,134 m). Led Kazakhstan's inaugural ski-touring expedition to Antarctica."
+      }
+    ]

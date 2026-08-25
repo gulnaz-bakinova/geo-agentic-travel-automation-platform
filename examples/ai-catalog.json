@@ -1,0 +1,170 @@
+{
+  "schema_version": "1.0",
+  "name": "MORN Travel Platform",
+  "description": "Direct booking platform for certified mountain expeditions, trekking tours, and helicopter transfers in Almaty, Kazakhstan with 0% agency markup.",
+  "url": "https://morn.kz",
+  "license": "https://morn.kz/public-offer.html",
+  "contact": {
+    "website": "https://morn.kz",
+    "location": "Almaty, Kazakhstan",
+    "payment_gateway": "https://pay.kaspi.kz/pay/YOUR_MERCHANT_ID"
+  },
+  "resources": [
+    {
+      "name": "About MORN",
+      "uri": "/about.md",
+      "mime_type": "text/markdown",
+      "description": "Platform mission, 0% markup guarantee, direct guide communication, and regional destination overview."
+    },
+    {
+      "name": "Tours and Expeditions",
+      "uri": "/tours.md",
+      "mime_type": "text/markdown",
+      "description": "Complete catalog of 16 mountain tours, routes, elevations, durations, difficulties, and exact direct prices in KZT and USD."
+    },
+    {
+      "name": "Certified Mountain Guides",
+      "uri": "/guides.md",
+      "mime_type": "text/markdown",
+      "description": "Registry of 11 verified guides across Powder Nomads, Monte Club, and Chobota with KMGA, KTA, WFTGA, and USAID credentials."
+    },
+    {
+      "name": "Helicopter Fleet & Transfers",
+      "uri": "/fleet.md",
+      "mime_type": "text/markdown",
+      "description": "Aircraft specifications (Eurocopter EC130 B4, Bell 505), Boraldai flight corridors, and hourly charter tariffs."
+    },
+    {
+      "name": "Complete Pricing Guide",
+      "uri": "/pricing.md",
+      "mime_type": "text/markdown",
+      "description": "Exhaustive price matrix, group-scale discounts, comfort upgrades, and co-sharing cost-splitting models."
+    },
+    {
+      "name": "Platform FAQ",
+      "uri": "/faq.md",
+      "mime_type": "text/markdown",
+      "description": "Answers regarding 0% markup policy, payment options, refund terms, packing lists, and safety standards."
+    },
+    {
+      "name": "LLMs Navigation Index",
+      "uri": "/llms.txt",
+      "mime_type": "text/plain",
+      "description": "Root AI crawler navigation index adhering to the standard llmstxt.org specification."
+    },
+    {
+      "name": "LLMs Full Knowledge Base",
+      "uri": "/llms-full.txt",
+      "mime_type": "text/plain",
+      "description": "Complete single-document knowledge bundle for AI agents and LLMs with long context windows."
+    }
+  ],
+  "actions": [
+    {
+      "name": "book_tour",
+      "description": "Submits a direct booking application for a selected mountain tour or expedition with 0% markup. The guide contacts the client within 24 hours.",
+      "target": "/#modal-booking",
+      "method": "FORM_SUBMISSION",
+      "form_selector": "#form-booking",
+      "parameters": {
+        "client_name": {
+          "type": "string",
+          "required": true,
+          "selector": "#booking-client-name",
+          "description": "Full name of the primary traveler."
+        },
+        "contact_info": {
+          "type": "string",
+          "required": true,
+          "selector": "#booking-contact-info",
+          "description": "Contact phone number (with country code) or Telegram/WhatsApp handle (e.g. +77011234567 or @traveler)."
+        },
+        "guests_count": {
+          "type": "integer",
+          "required": false,
+          "default": 1,
+          "minimum": 1,
+          "maximum": 20,
+          "selector": "#booking-guests-count",
+          "description": "Total number of participants in the group."
+        },
+        "tour_slug": {
+          "type": "string",
+          "required": true,
+          "selector": "#booking-tour-slug",
+          "description": "Unique identifier of the selected tour (e.g. tour1-essential, sovet-peak-4317m, kolsai-helicopter-3h-ec130)."
+        },
+        "data_share_consent": {
+          "type": "boolean",
+          "required": true,
+          "selector": "#booking-consent",
+          "description": "Consent to personal data processing for tour booking coordination."
+        }
+      },
+      "result": {
+        "status_attribute": "data-submission-status",
+        "success_value": "success",
+        "error_value": "error",
+        "success_selector": "#booking-success"
+      }
+    },
+    {
+      "name": "order_transfer",
+      "description": "Submits an order for a private vehicle transfer (4x4 SUV, Minivan, Executive Crossover).",
+      "target": "/#modal-transfer",
+      "method": "FORM_SUBMISSION",
+      "form_selector": "#form-transfer",
+      "parameters": {
+        "customer_name": {
+          "type": "string",
+          "required": true,
+          "selector": "#transfer-customer-name",
+          "description": "Full name of the passenger."
+        },
+        "contact_number": {
+          "type": "string",
+          "required": true,
+          "selector": "#transfer-contact-number",
+          "description": "Phone number for confirmation."
+        },
+        "destination": {
+          "type": "string",
+          "required": true,
+          "selector": "#transfer-destination",
+          "description": "Destination name or coordinates (e.g. Kolsai Lakes, Saty, Medeu)."
+        },
+        "passengers_count": {
+          "type": "integer",
+          "required": false,
+          "default": 1,
+          "selector": "#transfer-passengers-count",
+          "description": "Number of passengers."
+        },
+        "car_class": {
+          "type": "string",
+          "enum": ["4x4 SUV (Land Cruiser 200)", "Minivan (Sprinter)", "Executive Crossover (Lexus)"],
+          "selector": "#transfer-car-class",
+          "description": "Selected vehicle class."
+        },
+        "pickup_location": {
+          "type": "string",
+          "required": true,
+          "selector": "#transfer-pickup-location",
+          "description": "Pickup hotel name or address in Almaty."
+        },
+        "data_share_consent": {
+          "type": "boolean",
+          "required": true,
+          "selector": "#transfer-consent",
+          "description": "Consent to personal data processing."
+        }
+      },
+      "result": {
+        "status_attribute": "data-submission-status",
+        "success_value": "success",
+        "error_value": "error",
+        "success_selector": "#transfer-success"
+      }
+    }
+  ]
+}

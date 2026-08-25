@@ -1,0 +1,53 @@
+# ═══════════════════════════════════════════════
+# MORN. — robots.txt
+# AI Search Engine & Crawler Access Policy
+# ═══════════════════════════════════════════════
+
+# Default: allow all crawlers
+User-agent: *
+Allow: /
+Disallow: /supabase/
+Disallow: /scripts/
+Disallow: /admin.html
+Disallow: /*.sql$
+Disallow: /update_content.py
+Disallow: /update_sovet.js
+Disallow: /update_bao.js
+Disallow: /replace.js
+Disallow: /recover.js
+Disallow: /match*.txt
+Disallow: /user_inputs.txt
+
+# ─── AI Search Bots: Full Access ───
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# ─── Sitemap & AI Knowledge Base ───
+Sitemap: https://morn.kz/sitemap.xml
+
+# ─── LLMs.txt & Agent Catalog for AI Agents ───
+# Standard specification: https://llmstxt.org/
+# https://morn.kz/llms.txt
+# https://morn.kz/llms-full.txt
+# https://morn.kz/ai-catalog.json
