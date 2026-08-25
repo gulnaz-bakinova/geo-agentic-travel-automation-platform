@@ -3,11 +3,11 @@
 
 *🇷🇺 [Русская версия](README.ru.md)*
 
-[![Architecture: Event-Driven](https://img.shields.io/badge/Architecture-Event--Driven-0052CC?style=for-the-badge&logo=diagramsdotnet)](./ARCHITECTURE.md)
-[![Protocol: llms.txt](https://img.shields.io/badge/Protocol-llms.txt%20%2F%20Schema.org-34A853?style=for-the-badge&logo=google)](./GEO_SPECIFICATION.md)
-[![Backend: Supabase](https://img.shields.io/badge/Backend-Supabase%20%2F%20PostgreSQL-3ECF8E?style=for-the-badge&logo=supabase)](./SQL_EXAMPLES.md)
-[![AI Engineering: Agentic CI/CD](https://img.shields.io/badge/AI%20Engineering-Agentic%20CI%2FCD-FF6F00?style=for-the-badge&logo=openai)](./AGENTIC_WORKFLOWS.md)
-[![Security: RLS & Webhook HMAC](https://img.shields.io/badge/Security-RLS%20%26%20HMAC-E53935?style=for-the-badge&logo=shield)](./SECURITY.md)
+[![Architecture: Event-Driven](https://img.shields.io/badge/Architecture-Event--Driven-0052CC?style=for-the-badge&logo=diagramsdotnet)](./docs/ARCHITECTURE.md)
+[![Protocol: llms.txt](https://img.shields.io/badge/Protocol-llms.txt%20%2F%20Schema.org-34A853?style=for-the-badge&logo=google)](./docs/GEO_SPECIFICATION.md)
+[![Backend: Supabase](https://img.shields.io/badge/Backend-Supabase%20%2F%20PostgreSQL-3ECF8E?style=for-the-badge&logo=supabase)](./docs/SQL_EXAMPLES.md)
+[![AI Engineering: Agentic CI/CD](https://img.shields.io/badge/AI%20Engineering-Agentic%20CI%2FCD-FF6F00?style=for-the-badge&logo=openai)](./docs/AGENTIC_WORKFLOWS.md)
+[![Security: RLS & Webhook HMAC](https://img.shields.io/badge/Security-RLS%20%26%20HMAC-E53935?style=for-the-badge&logo=shield)](./docs/SECURITY.md)
 
 <p align="center">
   <img src="./docs/images/site-hero-homepage.png" alt="MORN.KZ live production platform — direct booking for certified mountain expeditions in Almaty, Kazakhstan" width="500">
@@ -176,22 +176,13 @@ Real files from the production system — not mockups. Open any file to inspect 
   <img src="./docs/images/supabase-real-bookings.png" alt="Real production bookings in Supabase from international clients across Kazakhstan, USA, France, South Korea, and India" width="500">
 </p>
 
-How to Navigate This Project
-For System Architects: Start with 
+## How to Navigate This Project
 
-ARCHITECTURE.md
- and 
+**For System Architects:** Start with [ARCHITECTURE.md](./docs/ARCHITECTURE.md) and [SQL_EXAMPLES.md](./docs/SQL_EXAMPLES.md)
 
-SQL_EXAMPLES.md
- to inspect data pipelines and event-driven database workflows.
-For AI Engineers & GEO Specialists: Review 
+**For AI Engineers & GEO Specialists:** Review [GEO_SPECIFICATION.md](./docs/GEO_SPECIFICATION.md)
 
-GEO_SPECIFICATION.md
- and examine the implementation of llms.txt and ai-catalog.json.
-For Engineering Managers & Leads: Explore 
-
-AGENTIC_WORKFLOWS.md
- to see how agentic developer skills and automated guardrails eliminate human error in codebases.
+**For Engineering Managers & Leads:** Explore [AGENTIC_WORKFLOWS.md](./docs/AGENTIC_WORKFLOWS.md)
 
 ---
 
