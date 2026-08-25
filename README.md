@@ -94,10 +94,18 @@ flowchart TB
 * **Surgical AST Verification:** Automated strict validation pipelines executing syntax checks (`node -c app.js`) and dual-entry checks across runtime JavaScript and server-rendered HTML fallbacks.
 * **Continuous Multi-Agent Code Reviews:** Automated policy enforcement ensuring partner contributions strictly respect data architecture and prevent regex-based content corruption.
 
+![Custom AI Agent Skills structure in .agents/skills directory](./docs/images/agents-skills-structure.png)
+
 ### 4. Event-Driven Serverless Backend & Financial Flow
 * **Supabase PostgreSQL Architecture:** Relational schema managing tours, certified guides, partner groups, co-sharing queues, and real-time bookings.
 * **Automated Postgres Triggers:** Database triggers automatically calculate cost-splitting economics for co-sharing transfers and dispatch immediate lead payloads to Telegram notification queues.
 * **Zero-Intermediary Payment Flow:** Direct routing integration with Kazakhstan's dominant fintech gateway (Kaspi Pay) eliminating platform custodial risks and securing instant merchant settlement.
+
+![Supabase PostgreSQL schema with production tables for tours, guides, bookings, and cosharing](./docs/images/supabase-tour-reviews.png)
+
+![Supabase Edge Function telegram-webhook deployed for real-time booking notifications](./docs/images/supabase-edge-functions.png)
+
+![Edge Function source code with HTML escaping for prompt injection defense](./docs/images/telegram-webhook-code.png)
 
 ## Repository Documentation Index
 
@@ -136,6 +144,8 @@ This repository contains in-depth architectural blueprints, security policies, S
 | 🚀 **Lighthouse Core Web Vitals** | Performance: 99 / SEO: 100 / A11y: 98 |
 | 🛡️ **Code Syntax & AST Drift Incident** | 0 regressions via agentic lint hooks |
 | 💳 **Booking-to-Dispatch Latency** | < 1.2s (Postgres Trigger -> Telegram) |
+
+![Real production bookings in Supabase from international clients across Kazakhstan, USA, France, South Korea, and India](./docs/images/supabase-real-bookings.png)
 
 How to Navigate This Project
 For System Architects: Start with 
