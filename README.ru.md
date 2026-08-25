@@ -135,6 +135,23 @@ flowchart TB
 | ⚙️ **Настройка окружения** | Полная спецификация переменных окружения с архитектурными аннотациями. |
 | 📊 **Бизнес-кейс** | Анализ проблема-решение, метрики платформы с 0% наценкой, бенчмарки AI-поисковой индексации и операционный ROI. |
 
+
+---
+
+## Артефакты продакшн-системы
+
+Реальные файлы из работающей системы — не мокапы. Открой любой файл, чтобы посмотреть фактическую реализацию.
+
+| Файл | Что демонстрирует |
+| :--- | :--- |
+| 📄 [`llms.txt`](./examples/llms.txt) | Корневой навигационный индекс по стандарту [llmstxt.org](https://llmstxt.org) — как AI-краулеры обнаруживают знания платформы |
+| 📚 [`llms-full.txt`](./examples/llms-full.txt) | Полный пакет знаний для глубокой RAG-индексации (туры, гиды, цены, протоколы) |
+| 🤖 [`robots.txt`](./examples/robots.txt) | Явные директивы для краулеров с whitelist для GPTBot, PerplexityBot, ClaudeBot, Google-Extended |
+| 🎯 [`ai-catalog.json`](./examples/ai-catalog.json) | OpenAPI-подобный манифест действий для автономных браузерных агентов (OpenAI Operator, Claude Computer Use) |
+| 🌐 [`jsonld-tour.json`](./examples/jsonld-tour.json) | Граф связанных данных Schema.org — сущности `TouristTrip`, `Person`, `Offer`, `FAQPage` |
+| 🗄️ [`init-schema.sql`](./examples/init-schema.sql) | Полная миграция PostgreSQL 15+: таблицы, индексы, RLS-политики, триггеры |
+| ⚡ [`edge-function-telegram.ts`](./examples/edge-function-telegram.ts) | Supabase Edge Function с HTML-экранированием, маскированием телефонов и рендерингом шаблонов |
+
 ---
 
 ## Матрица технологического стека
