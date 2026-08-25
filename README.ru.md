@@ -9,6 +9,10 @@
 [![AI-Инженерия: Агентный CI/CD](https://img.shields.io/badge/AI%20Инженерия-Агентный%20CI%2FCD-FF6F00?style=for-the-badge&logo=openai)](./AGENTIC_WORKFLOWS.md)
 [![Безопасность: RLS & Webhook HMAC](https://img.shields.io/badge/Безопасность-RLS%20%26%20HMAC-E53935?style=for-the-badge&logo=shield)](./SECURITY.md)
 
+<p align="center">
+  <img src="./docs/images/site-hero-homepage.png" alt="MORN.KZ live production platform — direct booking for certified mountain expeditions in Almaty, Kazakhstan" width="500">
+</p>
+
 ---
 
 ## Краткое описание проекта
@@ -22,6 +26,10 @@
 | 🤖 GEO и LLM-оптимизация | ⚡ Автономные веб-действия | 🔒 Отказоустойчивая архитектура |
 | :--- | :--- | :--- |
 | • Полная реализация `llms.txt` и `llms-full`<br>• Движок Schema.org графа<br>• Субсекундная AI-индексация | • `data-agent-*` атрибуты<br>• Структурированная схема действий<br>• DOM state-machine обратная связь | • Row-Level Security (RLS)<br>• Строгий zero-drift аудит<br>• Мультиагентный CI/CD контроль |
+
+<p align="center">
+  <img src="./docs/images/site-tour-catalog.png" alt="Live tour catalog on MORN.KZ showing 0% markup direct guide pricing — 50,000 KZT (~$100) for Big Almaty Peak hike" width="500">
+</p>
 
 ---
 
@@ -95,10 +103,20 @@ flowchart TB
 - **Хирургическая AST-верификация:** Автоматизированные строгие пайплайны валидации, выполняющие проверки синтаксиса (`node -c app.js`) и dual-entry проверки между рантайм-JavaScript и серверными HTML-фолбэками.
 - **Непрерывные мультиагентные код-ревью:** Автоматизированное соблюдение политик, гарантирующее, что партнёрские контрибуции строго соответствуют архитектуре данных и предотвращают regex-повреждение контента.
 
+<p align="center">
+  <img src="./docs/images/agents-skills-structure.png" alt="Custom AI Agent Skills structure in .agents/skills directory" width="500">
+</p>
+
 ### 4. Событийный серверлесс-бэкенд и финансовый поток
 - **Архитектура Supabase PostgreSQL:** Реляционная схема, управляющая турами, сертифицированными гидами, партнёрскими группами, очередями ко-шеринга и бронированиями в реальном времени.
 - **Автоматизированные триггеры PostgreSQL:** Триггеры БД автоматически рассчитывают экономику разделения стоимости ко-шеринг трансферов и мгновенно диспатчат лид-полезные нагрузки в очереди уведомлений Telegram.
 - **Безагентский платёжный поток:** Прямая интеграция маршрутизации с доминирующим финтех-шлюзом Казахстана (Kaspi Pay), исключающая кастодиальные риски платформы и обеспечивающая мгновенный расчёт с мерчантом.
+
+<p align="center">
+  <img src="./docs/images/site-hero-homepage.png" alt="MORN.KZ homepage" width="250">
+  <img src="./docs/images/site-tour-catalog.png" alt="Tour catalog with 0% markup pricing" width="250">
+  <img src="./docs/images/site-booking-modal-consent.png" alt="Booking modal with GDPR consent" width="250">
+</p>
 
 ---
 
@@ -143,6 +161,10 @@ flowchart TB
 | 🚀 **Lighthouse Core Web Vitals** | Performance: 99 / SEO: 100 / A11y: 98 |
 | 🛡️ **Инциденты синтаксиса и AST-дрифта** | 0 регрессий благодаря агентным lint-хукам |
 | 💳 **Латентность бронирование → диспатч** | < 1.2 с (Postgres Trigger → Telegram) |
+
+<p align="center">
+  <img src="./docs/images/supabase-real-bookings.png" alt="Real production bookings in Supabase from international clients across Kazakhstan, USA, France, South Korea, and India" width="500">
+</p>
 
 ---
 
