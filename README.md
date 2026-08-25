@@ -9,6 +9,10 @@
 [![AI Engineering: Agentic CI/CD](https://img.shields.io/badge/AI%20Engineering-Agentic%20CI%2FCD-FF6F00?style=for-the-badge&logo=openai)](./AGENTIC_WORKFLOWS.md)
 [![Security: RLS & Webhook HMAC](https://img.shields.io/badge/Security-RLS%20%26%20HMAC-E53935?style=for-the-badge&logo=shield)](./SECURITY.md)
 
+<p align="center">
+  <img src="./docs/images/site-hero-homepage.png" alt="MORN.KZ live production platform — direct booking for certified mountain expeditions in Almaty, Kazakhstan" width="500">
+</p>
+
 ---
 
 ## Executive Summary
@@ -22,6 +26,10 @@ Built around a direct-booking model for certified mountain expeditions, trekking
 | 🤖 GEO & LLM Optimization | ⚡ Autonomous Web Actions | 🔒 Resilient Architecture |
 | :--- | :--- | :--- |
 | • Full `llms.txt` & `llms-full`<br>• Schema.org Graph Engine<br>• Sub-second AI Ingestion | • `data-agent-*` attributes<br>• Structured Action Schema<br>• DOM state-machine feedback | • Row-Level Security (RLS)<br>• Strict zero-drift audits<br>• Multi-Agent CI/CD Guard |
+
+<p align="center">
+  <img src="./docs/images/site-tour-catalog.png" alt="Live tour catalog on MORN.KZ showing 0% markup direct guide pricing — 50,000 KZT (~$100) for Big Almaty Peak hike" width="500">
+</p>
 
 ---
 
@@ -94,18 +102,20 @@ flowchart TB
 * **Surgical AST Verification:** Automated strict validation pipelines executing syntax checks (`node -c app.js`) and dual-entry checks across runtime JavaScript and server-rendered HTML fallbacks.
 * **Continuous Multi-Agent Code Reviews:** Automated policy enforcement ensuring partner contributions strictly respect data architecture and prevent regex-based content corruption.
 
-![Custom AI Agent Skills structure in .agents/skills directory](./docs/images/agents-skills-structure.png)
+<p align="center">
+  <img src="./docs/images/agents-skills-structure.png" alt="Custom AI Agent Skills structure in .agents/skills directory" width="500">
+</p>
 
 ### 4. Event-Driven Serverless Backend & Financial Flow
 * **Supabase PostgreSQL Architecture:** Relational schema managing tours, certified guides, partner groups, co-sharing queues, and real-time bookings.
 * **Automated Postgres Triggers:** Database triggers automatically calculate cost-splitting economics for co-sharing transfers and dispatch immediate lead payloads to Telegram notification queues.
 * **Zero-Intermediary Payment Flow:** Direct routing integration with Kazakhstan's dominant fintech gateway (Kaspi Pay) eliminating platform custodial risks and securing instant merchant settlement.
 
-![Supabase PostgreSQL schema with production tables for tours, guides, bookings, and cosharing](./docs/images/supabase-tour-reviews.png)
-
-![Supabase Edge Function telegram-webhook deployed for real-time booking notifications](./docs/images/supabase-edge-functions.png)
-
-![Edge Function source code with HTML escaping for prompt injection defense](./docs/images/telegram-webhook-code.png)
+<p align="center">
+  <img src="./docs/images/site-hero-homepage.png" alt="MORN.KZ homepage" width="250">
+  <img src="./docs/images/site-tour-catalog.png" alt="Tour catalog with 0% markup pricing" width="250">
+  <img src="./docs/images/site-booking-modal-consent.png" alt="Booking modal with GDPR consent" width="250">
+</p>
 
 ## Repository Documentation Index
 
@@ -145,7 +155,9 @@ This repository contains in-depth architectural blueprints, security policies, S
 | 🛡️ **Code Syntax & AST Drift Incident** | 0 regressions via agentic lint hooks |
 | 💳 **Booking-to-Dispatch Latency** | < 1.2s (Postgres Trigger -> Telegram) |
 
-![Real production bookings in Supabase from international clients across Kazakhstan, USA, France, South Korea, and India](./docs/images/supabase-real-bookings.png)
+<p align="center">
+  <img src="./docs/images/supabase-real-bookings.png" alt="Real production bookings in Supabase from international clients across Kazakhstan, USA, France, South Korea, and India" width="500">
+</p>
 
 How to Navigate This Project
 For System Architects: Start with 
