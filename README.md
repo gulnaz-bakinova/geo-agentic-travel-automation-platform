@@ -164,5 +164,3 @@ AGENTIC_WORKFLOWS.md
 
 Let's connect!
 [LinkedIn](https://www.linkedin.com/in/gulnaz-bakinova/) 
-
-*This repository is provided for portfolio and demonstration purposes only*
