@@ -3,11 +3,11 @@
 
 *🇺🇸 [English Version](README.md)*
 
-[![Архитектура: Event-Driven](https://img.shields.io/badge/Архитектура-Event--Driven-0052CC?style=for-the-badge&logo=diagramsdotnet)](./ARCHITECTURE.md)
-[![Протокол: llms.txt](https://img.shields.io/badge/Протокол-llms.txt%20%2F%20Schema.org-34A853?style=for-the-badge&logo=google)](./GEO_SPECIFICATION.md)
-[![Бэкенд: Supabase](https://img.shields.io/badge/Бэкенд-Supabase%20%2F%20PostgreSQL-3ECF8E?style=for-the-badge&logo=supabase)](./SQL_EXAMPLES.md)
-[![AI-Инженерия: Агентный CI/CD](https://img.shields.io/badge/AI%20Инженерия-Агентный%20CI%2FCD-FF6F00?style=for-the-badge&logo=openai)](./AGENTIC_WORKFLOWS.md)
-[![Безопасность: RLS & Webhook HMAC](https://img.shields.io/badge/Безопасность-RLS%20%26%20HMAC-E53935?style=for-the-badge&logo=shield)](./SECURITY.md)
+[![Архитектура: Event-Driven](https://img.shields.io/badge/Архитектура-Event--Driven-0052CC?style=for-the-badge&logo=diagramsdotnet)](./docs/ARCHITECTURE.md)
+[![Протокол: llms.txt](https://img.shields.io/badge/Протокол-llms.txt%20%2F%20Schema.org-34A853?style=for-the-badge&logo=google)](./docs/GEO_SPECIFICATION.md)
+[![Бэкенд: Supabase](https://img.shields.io/badge/Бэкенд-Supabase%20%2F%20PostgreSQL-3ECF8E?style=for-the-badge&logo=supabase)](./docs/SQL_EXAMPLES.md)
+[![AI-Инженерия: Агентный CI/CD](https://img.shields.io/badge/AI%20Инженерия-Агентный%20CI%2FCD-FF6F00?style=for-the-badge&logo=openai)](./docs/AGENTIC_WORKFLOWS.md)
+[![Безопасность: RLS & Webhook HMAC](https://img.shields.io/badge/Безопасность-RLS%20%26%20HMAC-E53935?style=for-the-badge&logo=shield)](./docs/SECURITY.md)
 
 <p align="center">
   <img src="./docs/images/site-hero-homepage.png" alt="MORN.KZ live production platform — direct booking for certified mountain expeditions in Almaty, Kazakhstan" width="500">
@@ -187,11 +187,11 @@ flowchart TB
 
 ## Навигация по проекту
 
-**Для системных архитекторов:** начните с [ARCHITECTURE.md](./ARCHITECTURE.md) и [SQL_EXAMPLES.md](./SQL_EXAMPLES.md) для изучения дата-пайплайнов и событийных workflow базы данных.
+**Для системных архитекторов:** начните с [ARCHITECTURE.md](./docs/ARCHITECTURE.md) и [SQL_EXAMPLES.md](./docs/SQL_EXAMPLES.md)
 
-**Для AI-инженеров и GEO-специалистов:** изучите [GEO_SPECIFICATION.md](./GEO_SPECIFICATION.md) и реализацию `llms.txt` и `ai-catalog.json`.
+**Для AI-инженеров и GEO-специалистов:** изучите [GEO_SPECIFICATION.md](./docs/GEO_SPECIFICATION.md)
 
-**Для технических руководителей:** ознакомьтесь с [AGENTIC_WORKFLOWS.md](./AGENTIC_WORKFLOWS.md), чтобы увидеть, как агентные навыки разработчика и автоматизированные гарантии устраняют человеческие ошибки в кодовой базе.
+**Для технических руководителей:** ознакомьтесь с [AGENTIC_WORKFLOWS.md](./docs/AGENTIC_WORKFLOWS.md)
 
 ---
 
