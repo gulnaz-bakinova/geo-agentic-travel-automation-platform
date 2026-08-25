@@ -132,6 +132,23 @@ This repository contains in-depth architectural blueprints, security policies, S
 | ⚙️ **Environment Setup** | Complete environment variable specification with architectural annotations. |
 | 📊 **Business Case Study** | Problem-solution analysis, 0% markup platform metrics, AI search indexing benchmarks, and operational ROI. |
 
+
+---
+
+## Live Production Artifacts
+
+Real files from the production system — not mockups. Open any file to inspect the actual implementation.
+
+| File | What It Demonstrates |
+| :--- | :--- |
+| 📄 [`llms.txt`](./examples/llms.txt) | Root navigation index following the [llmstxt.org](https://llmstxt.org) standard — how AI crawlers discover platform knowledge |
+| 📚 [`llms-full.txt`](./examples/llms-full.txt) | Complete knowledge bundle for deep RAG ingestion (tours, guides, pricing, protocols) |
+| 🤖 [`robots.txt`](./examples/robots.txt) | Explicit crawler directives whitelisting GPTBot, PerplexityBot, ClaudeBot, Google-Extended |
+| 🎯 [`ai-catalog.json`](./examples/ai-catalog.json) | OpenAPI-style action manifest for autonomous browser agents (OpenAI Operator, Claude Computer Use) |
+| 🌐 [`jsonld-tour.json`](./examples/jsonld-tour.json) | Schema.org linked data graph — `TouristTrip`, `Person`, `Offer`, `FAQPage` entities |
+| 🗄️ [`init-schema.sql`](./examples/init-schema.sql) | Complete PostgreSQL 15+ migration: tables, indexes, RLS policies, triggers |
+| ⚡ [`edge-function-telegram.ts`](./examples/edge-function-telegram.ts) | Supabase Edge Function with HTML escaping, phone masking, and template rendering |
+
 ## Technology Stack Matrix
 
 | Layer | Technology / Standard | Role & Implementation Details |
